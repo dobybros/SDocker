@@ -2,5 +2,16 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/AgencyService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/IMApnService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/IMOfflineMsgService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/IMServerStatusService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/IMUserInPresenceService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../SDockerService/IMUserInfoService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manageservers/DicoveryService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manageservers/PKAdminService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manageservers/PKRoomService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manageservers/PKUserService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manageservers/PKWalletService" vcs="Git" />
   </component>
 </project>

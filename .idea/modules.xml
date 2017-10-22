@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../manageservers/PKAdminService/AdminService.iml" filepath="$PROJECT_DIR$/../manageservers/PKAdminService/AdminService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/AgencyService/AgencyService.iml" filepath="$PROJECT_DIR$/../SDockerService/AgencyService/AgencyService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manageservers/DicoveryService/DiscoveryService.iml" filepath="$PROJECT_DIR$/../manageservers/DicoveryService/DiscoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/IMApnService/IMApnService.iml" filepath="$PROJECT_DIR$/../SDockerService/IMApnService/IMApnService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/IMOfflineMsgService/IMOfflineMsgService.iml" filepath="$PROJECT_DIR$/../SDockerService/IMOfflineMsgService/IMOfflineMsgService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/IMServerStatusService/IMServerStatusService.iml" filepath="$PROJECT_DIR$/../SDockerService/IMServerStatusService/IMServerStatusService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/IMUserInPresenceService/IMUserInPresenceService.iml" filepath="$PROJECT_DIR$/../SDockerService/IMUserInPresenceService/IMUserInPresenceService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDockerService/IMUserInfoService/IMUserInfoService.iml" filepath="$PROJECT_DIR$/../SDockerService/IMUserInfoService/IMUserInfoService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manageservers/PKRoomService/PKRoomService.iml" filepath="$PROJECT_DIR$/../manageservers/PKRoomService/PKRoomService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manageservers/PKUserService/PKUserService.iml" filepath="$PROJECT_DIR$/../manageservers/PKUserService/PKUserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manageservers/PKWalletService/PKWalletService.iml" filepath="$PROJECT_DIR$/../manageservers/PKWalletService/PKWalletService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDocker.iml" filepath="$PROJECT_DIR$/SDocker.iml" />
     </modules>
   </component>
