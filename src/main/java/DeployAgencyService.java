@@ -2,7 +2,7 @@ import com.docker.utils.DeployServiceUtils;
 
 public class DeployAgencyService {
     public static void main(String[] args) throws Exception {
-        String servicePath = "/Users/admin/workSpace/SDockerService/AgencyService";
+        String servicePath = "/Users/admin/workSpace/manageservers/PKAgencyService";
         String dockerName = "docker";
         String serviceName = "agency";
         String gridfsHost = "mongodb://localhost:7900";

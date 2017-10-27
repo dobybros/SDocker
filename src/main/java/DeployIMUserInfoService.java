@@ -2,7 +2,7 @@ import com.docker.utils.DeployServiceUtils;
 
 public class DeployIMUserInfoService {
     public static void main(String[] args) throws Exception {
-        String servicePath = "/Users/admin/workSpace/SDockerService/IMUserInfoService";
+        String servicePath = "/Users/admin/workSpace/manageservers/IMUserInfoService";
         String dockerName = "docker";
         String serviceName = "imuserinfo";
         String gridfsHost = "mongodb://localhost:7900";

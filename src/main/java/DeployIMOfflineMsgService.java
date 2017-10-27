@@ -2,7 +2,7 @@ import com.docker.utils.DeployServiceUtils;
 
 public class DeployIMOfflineMsgService {
     public static void main(String[] args) throws Exception {
-        String servicePath = "/Users/admin/workSpace/SDockerService/IMOfflineMsgService";
+        String servicePath = "/Users/admin/workSpace/manageservers/IMOfflineMsgService";
         String dockerName = "docker";
         String serviceName = "imofflinemessage";
         String gridfsHost = "mongodb://localhost:7900";
