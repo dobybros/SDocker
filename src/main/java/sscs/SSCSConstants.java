@@ -1,6 +1,6 @@
-package pk;
+package sscs;
 
-public interface PKConstants {
+public interface SSCSConstants {
     String PATH = "/Users/admin/workSpace/manageservers/";
     String DOCKERNAME = "docker";
     String GRIDFSHOST = "mongodb://localhost:7900";
