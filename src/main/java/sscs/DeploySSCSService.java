@@ -5,7 +5,7 @@ import im.IMConstants;
 
 public class DeploySSCSService {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "IMApnService";
+        String servicePath = IMConstants.PATH + "SSCustomerStorageService";
         String dockerName = IMConstants.DOCKERNAME;
         String serviceName = "sscustomer";
         String gridfsHost = IMConstants.GRIDFSHOST;
