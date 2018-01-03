@@ -2,11 +2,11 @@ package im;
 
 import com.docker.utils.DeployServiceUtils;
 
-public class DeployIMRobotInfoService {
+public class DeployServerKeeperService {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "IMRobotService";
+        String servicePath = IMConstants.PATH + "ServerKeeperService";
         String dockerName = IMConstants.DOCKERNAME;
-        String serviceName = "robot";
+        String serviceName = "serverkeeper";
         String gridfsHost = IMConstants.GRIDFSHOST;
         String version = "1";
         String prefix = IMConstants.PREFIX;
