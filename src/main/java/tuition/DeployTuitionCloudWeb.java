@@ -2,11 +2,11 @@ package tuition;
 
 import com.docker.utils.DeployServiceUtils;
 
-public class DeployUserService {
+public class DeployTuitionCloudWeb {
     public static void main(String[] args) throws Exception {
-        String servicePath = TuitionConstants.PATH + "UserService";
+        String servicePath = TuitionConstants.PATH + "TuitionCloudWeb";
         String dockerName = TuitionConstants.DOCKERNAME;
-        String serviceName = "user";
+        String serviceName = "tcweb";
         String gridfsHost = TuitionConstants.GRIDFSHOST;
         String version = "1";
         String prefix = TuitionConstants.PREFIX;
