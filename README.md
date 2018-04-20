@@ -1,8 +1,13 @@
 # service config 差异化
-
-## local 以TCIntegrationService为例
+###### 
+## local (以TCIntegrationService为例)
 >### TCIntegrationService
-
+        imapi.host=http://imapi.aculearn.com/rest/acuim/
+        imapi.privatekey=6472ac46-5b83-4471-8cd3-a76a7b5610b2
+        imapi.apikey=5ad5e354f8d7041e0f53bdd7
+        tcapi.host=http://tcapi.aculearn.com/rest/acutuition/
+        tcapi.privatekey=d62e7948-b581-49aa-af8c-bdc7f7376c97
+        tcapi.apikey=5aa0c95ff8d7041b7494384b
 
 
 ## cn_bj1
