@@ -11,7 +11,7 @@
            http://www.springframework.org/schema/aop   
            http://www.springframework.org/schema/aop/spring-aop-3.0.xsd   
            ">
-
+		
 	<!-- 属性配置信息  -->
 	<import resource="props/property_config.xml" />
 	<import resource="core_daos.xml" />
