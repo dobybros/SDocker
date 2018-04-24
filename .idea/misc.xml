@@ -18,10 +18,11 @@
         <option value="$PROJECT_DIR$/../manageservers/PKRoomService/pom.xml" />
         <option value="$PROJECT_DIR$/../manageservers/PKWalletService/pom.xml" />
         <option value="$PROJECT_DIR$/../SDockerService/IMApnService/pom.xml" />
+        <option value="$PROJECT_DIR$/../OTStudentWeb/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
