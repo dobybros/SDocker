@@ -2566,7 +2566,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.stub.data.PackageInfo
 3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.stub.data.VersionInfo
 3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.stub.data.Topup
-3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class error.Errors
+3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class Errors
 3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class rest.PackageController
 3183627 [Timer-0] INFO   - [2017-10-17 23:18:33 0097|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class db.UserNumIdCollection
 3183631 [Timer-0] INFO   - [2017-10-17 23:18:33 0101|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class db.UserDatabase
@@ -2577,11 +2577,11 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 3183631 [Timer-0] INFO   - [2017-10-17 23:18:33 0101|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class data.Session
 3183646 [Timer-0] INFO   - [2017-10-17 23:18:33 0116|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class data.UserNumId
 3183646 [Timer-0] INFO   - [2017-10-17 23:18:33 0116|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-3183658 [Timer-0] INFO   - [2017-10-17 23:18:33 0128|GroovyRuntime] MyGroovyClassLoader#2 remove meta class interface common.CommonConstants
-3183660 [Timer-0] INFO   - [2017-10-17 23:18:33 0130|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class intercepters.CommonIntercepter
+3183658 [Timer-0] INFO   - [2017-10-17 23:18:33 0128|GroovyRuntime] MyGroovyClassLoader#2 remove meta class interface CommonConstants
+3183660 [Timer-0] INFO   - [2017-10-17 23:18:33 0130|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class CommonIntercepter
 3183660 [Timer-0] INFO   - [2017-10-17 23:18:33 0130|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 3183661 [Timer-0] INFO   - [2017-10-17 23:18:33 0131|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class data.User
-3183679 [Timer-0] INFO   - [2017-10-17 23:18:33 0149|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class utils.RequestUtils
+3183679 [Timer-0] INFO   - [2017-10-17 23:18:33 0149|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class RequestUtils
 3183698 [Timer-0] INFO   - [2017-10-17 23:18:33 0168|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 3183698 [Timer-0] INFO   - [2017-10-17 23:18:33 0168|GroovyRuntime] MyGroovyClassLoader#2 remove meta class interface service.stub.WalletService
 3183699 [Timer-0] INFO   - [2017-10-17 23:18:33 0169|GroovyRuntime] oldClassLoader MyGroovyClassLoader#1 is closed
@@ -2733,7 +2733,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 3616407 [Timer-0] INFO   - [2017-10-17 23:25:45 0877|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class service.stub.data.PackageInfo
 3616407 [Timer-0] INFO   - [2017-10-17 23:25:45 0877|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class service.stub.data.VersionInfo
 3616407 [Timer-0] INFO   - [2017-10-17 23:25:45 0877|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class service.stub.data.Topup
-3616407 [Timer-0] INFO   - [2017-10-17 23:25:45 0877|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class error.Errors
+3616407 [Timer-0] INFO   - [2017-10-17 23:25:45 0877|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class Errors
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class rest.PackageController
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class db.UserNumIdCollection
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class db.UserDatabase
@@ -2745,11 +2745,11 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class data.Session
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class data.UserNumId
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class interface common.CommonConstants
-3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class intercepters.CommonIntercepter
+3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class interface CommonConstants
+3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class CommonIntercepter
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 3616408 [Timer-0] INFO   - [2017-10-17 23:25:45 0878|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class data.User
-3616409 [Timer-0] INFO   - [2017-10-17 23:25:45 0879|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class utils.RequestUtils
+3616409 [Timer-0] INFO   - [2017-10-17 23:25:45 0879|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class RequestUtils
 3616409 [Timer-0] INFO   - [2017-10-17 23:25:45 0879|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 3616409 [Timer-0] INFO   - [2017-10-17 23:25:45 0879|GroovyRuntime] MyGroovyClassLoader#3 remove meta class interface service.stub.WalletService
 3616409 [Timer-0] INFO   - [2017-10-17 23:25:45 0879|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class utils.MyX509TrustManager
@@ -2923,7 +2923,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class service.stub.data.PackageInfo
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class service.stub.data.VersionInfo
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class service.stub.data.Topup
-4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class error.Errors
+4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class Errors
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class rest.PackageController
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class db.UserNumIdCollection
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class db.UserDatabase
@@ -2934,11 +2934,11 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class data.Session
 4402790 [Timer-0] INFO   - [2017-10-17 23:38:52 0260|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class data.UserNumId
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class interface common.CommonConstants
-4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class intercepters.CommonIntercepter
+4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class interface CommonConstants
+4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class CommonIntercepter
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class data.User
-4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class utils.RequestUtils
+4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class RequestUtils
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class interface service.stub.WalletService
 4402791 [Timer-0] INFO   - [2017-10-17 23:38:52 0261|GroovyRuntime] MyGroovyClassLoader#4 remove meta class class utils.MyX509TrustManager
@@ -3113,7 +3113,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class service.stub.data.PackageInfo
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class service.stub.data.VersionInfo
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class service.stub.data.Topup
-4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class error.Errors
+4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class Errors
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class rest.PackageController
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class db.UserNumIdCollection
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class db.UserDatabase
@@ -3124,11 +3124,11 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class data.Session
 4765973 [Timer-0] INFO   - [2017-10-17 23:44:55 0443|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class data.UserNumId
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class interface common.CommonConstants
-4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class intercepters.CommonIntercepter
+4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class interface CommonConstants
+4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class CommonIntercepter
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class data.User
-4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class utils.RequestUtils
+4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class RequestUtils
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class interface service.stub.WalletService
 4765974 [Timer-0] INFO   - [2017-10-17 23:44:55 0444|GroovyRuntime] MyGroovyClassLoader#5 remove meta class class utils.MyX509TrustManager
@@ -3280,7 +3280,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class service.stub.data.PackageInfo
 4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class service.stub.data.VersionInfo
 4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class service.stub.data.Topup
-4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class error.Errors
+4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class Errors
 4878643 [Timer-0] INFO   - [2017-10-17 23:46:48 0113|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class rest.PackageController
 4878644 [Timer-0] INFO   - [2017-10-17 23:46:48 0114|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class db.UserNumIdCollection
 4878644 [Timer-0] INFO   - [2017-10-17 23:46:48 0114|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class db.UserDatabase
@@ -3291,12 +3291,12 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 4878644 [Timer-0] INFO   - [2017-10-17 23:46:48 0114|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class data.Session
 4878644 [Timer-0] INFO   - [2017-10-17 23:46:48 0114|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class data.UserNumId
 4878644 [Timer-0] INFO   - [2017-10-17 23:46:48 0114|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-4878645 [Timer-0] INFO   - [2017-10-17 23:46:48 0115|GroovyRuntime] MyGroovyClassLoader#6 remove meta class interface common.CommonConstants
-4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class intercepters.CommonIntercepter
+4878645 [Timer-0] INFO   - [2017-10-17 23:46:48 0115|GroovyRuntime] MyGroovyClassLoader#6 remove meta class interface CommonConstants
+4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class CommonIntercepter
 4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class data.User
 4878646 [qtp1292040526-18] INFO   - [2017-10-17 23:46:48 0116|GroovyServletManager] uriStrs [rest, discovery, service, pkwallet] matchStr discovery
-4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class utils.RequestUtils
+4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class RequestUtils
 4878646 [qtp1292040526-16] INFO   - [2017-10-17 23:46:48 0116|GroovyServletManager] uriStrs [rest, discovery, service, admin] matchStr discovery
 4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 4878646 [Timer-0] INFO   - [2017-10-17 23:46:48 0116|GroovyRuntime] MyGroovyClassLoader#6 remove meta class interface service.stub.WalletService
@@ -3452,7 +3452,7 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 5071303 [Timer-0] INFO   - [2017-10-17 23:50:00 0773|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class service.stub.data.PackageInfo
 5071303 [Timer-0] INFO   - [2017-10-17 23:50:00 0773|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class service.stub.data.VersionInfo
 5071304 [Timer-0] INFO   - [2017-10-17 23:50:00 0774|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class service.stub.data.Topup
-5071304 [Timer-0] INFO   - [2017-10-17 23:50:00 0774|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class error.Errors
+5071304 [Timer-0] INFO   - [2017-10-17 23:50:00 0774|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class Errors
 5071304 [Timer-0] INFO   - [2017-10-17 23:50:00 0774|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class rest.PackageController
 5071306 [Timer-0] INFO   - [2017-10-17 23:50:00 0776|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class db.UserNumIdCollection
 5071306 [Timer-0] INFO   - [2017-10-17 23:50:00 0776|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class db.UserDatabase
@@ -3463,11 +3463,11 @@ Mapped rest/pkuser/user#GET: rest/UserViewController.groovy#login
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class data.Session
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class data.UserNumId
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class intercepters.SessionIntercepter$SessionParameterHandler
-5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class interface common.CommonConstants
-5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class intercepters.CommonIntercepter
+5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class interface CommonConstants
+5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class CommonIntercepter
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class script.groovy.runtime.GroovyObjectExSessionServiceProxy
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class data.User
-5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class utils.RequestUtils
+5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class RequestUtils
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class script.groovy.runtime.GroovyObjectExUserCollectionProxy
 5071308 [Timer-0] INFO   - [2017-10-17 23:50:00 0778|GroovyRuntime] MyGroovyClassLoader#7 remove meta class interface service.stub.WalletService
 5071309 [Timer-0] INFO   - [2017-10-17 23:50:00 0779|GroovyRuntime] MyGroovyClassLoader#7 remove meta class class utils.MyX509TrustManager

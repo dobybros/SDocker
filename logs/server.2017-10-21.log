@@ -1098,12 +1098,12 @@ Mapped rest/discovery/service/{service}#POST: user/DiscoveryController.groovy#ge
 4873947 [Timer-0] INFO   - [2017-10-21 16:05:22 0106|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class controllers.GroovyServletEx
 4873947 [Timer-0] INFO   - [2017-10-21 16:05:22 0106|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.ApnPushService
 4873947 [Timer-0] INFO   - [2017-10-21 16:05:22 0106|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class utils.ApnUtils
-4873950 [Timer-0] INFO   - [2017-10-21 16:05:22 0109|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class intercepters.CommonIntercepter
+4873950 [Timer-0] INFO   - [2017-10-21 16:05:22 0109|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class CommonIntercepter
 4873950 [Timer-0] INFO   - [2017-10-21 16:05:22 0109|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class config.imports
 4873950 [Timer-0] INFO   - [2017-10-21 16:05:22 0109|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.UserInPresenceAdapter
 4873953 [Timer-0] INFO   - [2017-10-21 16:05:22 0112|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class db.UserInPresenceMap
-4873954 [Timer-0] INFO   - [2017-10-21 16:05:22 0113|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class error.Errors
-4873954 [Timer-0] INFO   - [2017-10-21 16:05:22 0113|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class utils.RequestUtils
+4873954 [Timer-0] INFO   - [2017-10-21 16:05:22 0113|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class Errors
+4873954 [Timer-0] INFO   - [2017-10-21 16:05:22 0113|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class RequestUtils
 4873955 [Timer-0] INFO   - [2017-10-21 16:05:22 0114|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class script.groovy.runtime.GroovyObjectExUserInPresenceMapProxy
 4873955 [Timer-0] INFO   - [2017-10-21 16:05:22 0114|GroovyRuntime] MyGroovyClassLoader#2 remove meta class class service.RefreshP12Handler
 4873964 [Timer-0] INFO   - [2017-10-21 16:05:22 0123|GroovyRuntime] oldClassLoader MyGroovyClassLoader#1 is closed
@@ -1184,13 +1184,13 @@ Mapped rest/discovery/service/{service}#POST: user/DiscoveryController.groovy#ge
 10687427 [Timer-0] INFO   - [2017-10-21 17:42:15 0585|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class Listener.APNFailedConnectionListener
 10687428 [Timer-0] INFO   - [2017-10-21 17:42:15 0587|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class data.ApnPushManager
 10687428 [Timer-0] INFO   - [2017-10-21 17:42:15 0587|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class utils.ApnUtils
-10687429 [Timer-0] INFO   - [2017-10-21 17:42:15 0588|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class intercepters.CommonIntercepter
+10687429 [Timer-0] INFO   - [2017-10-21 17:42:15 0588|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class CommonIntercepter
 10687430 [Timer-0] INFO   - [2017-10-21 17:42:15 0589|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class config.imports
 10687431 [Timer-0] INFO   - [2017-10-21 17:42:15 0590|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class Listener.APNRejectedNotificationListener
 10687431 [Timer-0] INFO   - [2017-10-21 17:42:15 0590|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class utils.RefreshP12Handler
 10687431 [Timer-0] INFO   - [2017-10-21 17:42:15 0590|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class script.groovy.runtime.GroovyObjectExProxy
-10687432 [Timer-0] INFO   - [2017-10-21 17:42:15 0591|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class error.Errors
-10687434 [Timer-0] INFO   - [2017-10-21 17:42:15 0593|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class utils.RequestUtils
+10687432 [Timer-0] INFO   - [2017-10-21 17:42:15 0591|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class Errors
+10687434 [Timer-0] INFO   - [2017-10-21 17:42:15 0593|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class RequestUtils
 10687434 [Timer-0] INFO   - [2017-10-21 17:42:15 0593|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class controllers.GroovyServletEx
 10687435 [Timer-0] INFO   - [2017-10-21 17:42:15 0594|GroovyRuntime] MyGroovyClassLoader#3 remove meta class class service.ApnPushService
 10687437 [Timer-0] INFO   - [2017-10-21 17:42:15 0596|GroovyRuntime] oldClassLoader MyGroovyClassLoader#2 is closed

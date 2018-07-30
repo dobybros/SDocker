@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/../manageservers/PKWalletService/pom.xml" />
         <option value="$PROJECT_DIR$/../SDockerService/IMApnService/pom.xml" />
         <option value="$PROJECT_DIR$/../OTStudentWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/../../onlinetuition/OTTuitionCenterWeb/pom.xml" />
       </list>
     </option>
   </component>

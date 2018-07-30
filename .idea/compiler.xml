@@ -18,6 +18,7 @@
         <module name="IMUserInPresenceService (1)" />
         <module name="MyScripts" />
         <module name="OTStudentWeb" />
+        <module name="OTTuitionCenterWeb" />
         <module name="PKRoomService" />
         <module name="PKUserService" />
         <module name="PKUserService (1)" />
@@ -39,6 +40,7 @@
       <module name="IMUserInPresenceService (1)" target="1.5" />
       <module name="MyScripts" target="1.8" />
       <module name="OTStudentWeb" target="1.8" />
+      <module name="OTTuitionCenterWeb" target="1.8" />
       <module name="PKRoomService" target="1.8" />
       <module name="PKUserService" target="1.8" />
       <module name="PKUserService (1)" target="1.5" />
