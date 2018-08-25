@@ -4,7 +4,7 @@ import com.docker.utils.DeployServiceUtils;
 
 public class DeployDiscoveryService {
     public static void main(String[] args) throws Exception {
-        String servicePath = DiscoveryConstants.PATH + "DiscoveryService";
+        String servicePath = DiscoveryConstants.PATH + "DicoveryService";
         String dockerName = DiscoveryConstants.DOCKERNAME;
         String serviceName = "discovery";
         String gridfsHost = DiscoveryConstants.GRIDFSHOST;
