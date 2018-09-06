@@ -488,13 +488,23 @@
     </dependencies>
     <build>
         <plugins>
-
             <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <transformers>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                            <mainClass>SDockerMain</mainClass>
+                        </transformer>
+                    </transformers>
+                    <formats>
+                        <!--<format>tar.gz</format>-->
+                        <!--<format>jar</format>-->
+                        <format>war</format>
+                        <format>dir</format>
+                    </formats>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
                 </configuration>
             </plugin>
 

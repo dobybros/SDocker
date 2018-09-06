@@ -14,4 +14,3 @@ public class SDockerMain {
         chat.main.Main.main(new String[]{"-t", MAX_THREADS, "-p", defaultPort, "-w", WAR_PATH});
     }
 }
-
