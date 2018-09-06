@@ -17,7 +17,7 @@ public class DownloadGridFiles {
 
     public static void download() throws DBException, IOException {
         MongoHelper helper = new MongoHelper();
-        helper.setHost("mongodb://192.168.1.55:7900");
+        helper.setHost("mongodb://192.168.1.170:7900");
         helper.setDbName("gridfiles");
 //		helper.setUsername("socialshopsim");
 //		helper.setPassword("eDANviLHQtjwmFlywyKu");
@@ -30,7 +30,7 @@ public class DownloadGridFiles {
         fileHandler.init();
 
 //		File directory = new File("/home/aplomb/dev/github/PKUserService/deploy");
-        File directory = new File("/Users/aplomb/dev/ao/deploy");
+        File directory = new File("/Users/aplomb/dev/deploy/ao_20180906_1");
 
         List<FileAdapter.FileEntity> files = fileHandler.getFilesInDirectory(new FileAdapter.PathEx("/"), null, true);
         for(FileAdapter.FileEntity entity : files) {
