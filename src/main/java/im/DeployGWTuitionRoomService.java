@@ -9,7 +9,7 @@ public class DeployGWTuitionRoomService {
         String dockerName = "gateway";
         String serviceName = "gwtuitionroom";
         String gridfsHost = IMConstants.GRIDFSHOST;
-        String version = "1";
+        String version = "2";
         String prefix = IMConstants.PREFIX;
         DeployServiceUtils.main(new String[]{"-x", prefix, "-p", servicePath, "-d", dockerName, "-s", serviceName, "-f", gridfsHost, "-v", version});
     }
