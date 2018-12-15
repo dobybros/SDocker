@@ -10,3 +10,4 @@ target
 out/
 .gitignore.swp
 **/.DS_Store
+src
