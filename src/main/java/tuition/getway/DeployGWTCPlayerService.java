@@ -1,10 +1,12 @@
-package im;
+package tuition.getway;
 
 import com.docker.utils.DeployServiceUtils;
+import im.IMConstants;
+import tuition.TuitionConstants;
 
 public class DeployGWTCPlayerService {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "GWTCPlayerService";
+        String servicePath = TuitionConstants.PATH + "GWTCPlayerService";
         String dockerName = "gateway";
         String serviceName = "tcplayer";
         String gridfsHost = IMConstants.GRIDFSHOST;

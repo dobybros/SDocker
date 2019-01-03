@@ -1,13 +1,14 @@
-package im;
+package tuition.getway;
 
 import com.docker.utils.DeployServiceUtils;
+import im.IMConstants;
 import tuition.TuitionConstants;
 
-public class DeployIMServerStatusService {
+public class DeployGWTuitionRoomService {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "IMServerStatusService";
-        String dockerName = TuitionConstants.DOCKERNAME;
-        String serviceName = "imserverstatus";
+        String servicePath = TuitionConstants.PATH + "GWTuitionRoomService";
+        String dockerName = "gateway";
+        String serviceName = "gwtuitionroom";
         String gridfsHost = IMConstants.GRIDFSHOST;
         String version = "1";
         String prefix = IMConstants.PREFIX;

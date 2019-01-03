@@ -1,11 +1,12 @@
 package im;
 
 import com.docker.utils.DeployServiceUtils;
+import tuition.TuitionConstants;
 
 public class DeployIMOfflineMsgService {
     public static void main(String[] args) throws Exception {
         String servicePath = IMConstants.PATH + "IMOfflineMsgService";
-        String dockerName = "docker";
+        String dockerName = TuitionConstants.DOCKERNAME;
         String serviceName = "imofflinemessage";
         String gridfsHost = IMConstants.GRIDFSHOST;
         String version = "1";

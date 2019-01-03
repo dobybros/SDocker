@@ -1,11 +1,12 @@
 package im;
 
 import com.docker.utils.DeployServiceUtils;
+import tuition.TuitionConstants;
 
 public class DeployIMMonitorService {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "IMMonitorService";
-        String dockerName = "docker";
+        String servicePath = "C:\\Users\\lulia\\work\\work_new\\SharedServices\\IMMonitorService";
+        String dockerName = TuitionConstants.DOCKERNAME;
         String serviceName = "immonitor";
         String gridfsHost = IMConstants.GRIDFSHOST;
         String version = "1";

@@ -2,11 +2,11 @@ package tuition;
 
 import com.docker.utils.DeployServiceUtils;
 
-public class DeployIMAPIGatewayWeb {
+public class DeployINFSService {
     public static void main(String[] args) throws Exception {
-        String servicePath = TuitionConstants.PATH + "IMAPIGatewayWeb";
+        String servicePath = TuitionConstants.PATH + "NfsService";
         String dockerName = TuitionConstants.DOCKERNAME;
-        String serviceName = "acuim";
+        String serviceName = "tcnfs";
         String gridfsHost = TuitionConstants.GRIDFSHOST;
         String version = "1";
         String prefix = TuitionConstants.PREFIX;

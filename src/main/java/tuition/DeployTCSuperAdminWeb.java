@@ -5,7 +5,8 @@ import com.docker.utils.DeployServiceUtils;
 class DeployTCSuperAdminWeb {
     public static void main(String[] args) throws Exception {
         String servicePath = TuitionConstants.PATH + "TCSuperAdminWeb";
-        String dockerName = TuitionConstants.DOCKERNAME;
+//        String dockerName = TuitionConstants.DOCKERNAME;
+        String dockerName = "luliang";
         String serviceName = "tcadmin";
         String gridfsHost = TuitionConstants.GRIDFSHOST;
         String version = "1";

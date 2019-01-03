@@ -4,7 +4,7 @@ import com.docker.utils.DeployServiceUtils;
 
 public class DeployIMAdminWeb {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "IMAdminWeb";
+        String servicePath = "C:\\Users\\lulia\\work\\work_new\\SharedServices\\IMAdminWeb";
         String dockerName = IMConstants.DOCKERNAME;
         String serviceName = "htmls";
         String gridfsHost = IMConstants.GRIDFSHOST;

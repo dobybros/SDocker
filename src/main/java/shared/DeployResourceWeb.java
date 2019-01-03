@@ -1,16 +1,16 @@
-package im;
+package shared;
 
 import com.docker.utils.DeployServiceUtils;
 import tuition.TuitionConstants;
 
-public class DeployGWTuitionRoomService {
+public class DeployResourceWeb {
     public static void main(String[] args) throws Exception {
-        String servicePath = IMConstants.PATH + "GWTuitionRoomService";
-        String dockerName = "gateway";
-        String serviceName = "gwtuitionroom";
-        String gridfsHost = IMConstants.GRIDFSHOST;
+        String servicePath = SharedConstants.PATH + "ResourceWeb";
+        String dockerName = SharedConstants.DOCKERNAME;
+        String serviceName = "resource";
+        String gridfsHost = TuitionConstants.GRIDFSHOST;
         String version = "1";
-        String prefix = IMConstants.PREFIX;
+        String prefix = TuitionConstants.PREFIX;
         DeployServiceUtils.main(new String[]{"-x", prefix, "-p", servicePath, "-d", dockerName, "-s", serviceName, "-f", gridfsHost, "-v", version});
     }
 }
