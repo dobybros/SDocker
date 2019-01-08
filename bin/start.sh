@@ -2,6 +2,9 @@
 cd `dirname $0`
  BIN_DIR=`pwd`
 cd ..
+MaxThreadPoolSize='2000'
+MaxInnerThreadPoolSize='2000'
+serverPort='10023'
 #最大堆大小(64)
 xmx64='512m'
 #初始堆大小(64)
@@ -49,12 +52,12 @@ if [ "$1" = "jmx" ]; then
  if [ -n "$BITS" ]; then
  #Xms(初始堆大小),Xmx(最大堆大小),Xmn(年轻代大小)，-XX:PermSize(设置永久代初始值)，-Xss(每个线程的堆栈大小),-XX:+DisableExplicitGC(关闭System.gc()),-XX:+UseConcMarkSweepGC(使用CMS内存收集),XX:+CMSParallelRemarkEnabled(降低标记停顿),XX+UseCMSCompactAtFullCollection(在full gc时，对老年代压缩),XX:LargePageSizeInBytes(内存页的大小),-XX:+UseFastAccessorMethods(原始类型的快速优化),
  #-XX:+UseCMSInitiatingOccupancyOnly(使用手动定义初始化定义开始CMS收集),-XX:CMSInitiatingOccupancyFraction=70(使用cms作为垃圾回收,使用百分之70后开始收集)
-     JAVA_MEM_OPTS=" -server -Xmx$xmx64 -Xms$xms64 -Xmn$xmn64 -XX:PermSize=$permsize64 -Xss$xss64 -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:LargePageSizeInBytes=$largepagesize -XX:+UseFastAccessorMethods -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=$CMSInitiatingOccupancyFraction "
+      JAVA_MEM_OPTS=" -server -Xmx$xmx64 -Xms$xms64 -Xmn$xmn64 -XX:PermSize=$permsize64 -Xss$xss64 -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:LargePageSizeInBytes=$largepagesize -XX:+UseFastAccessorMethods -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=$CMSInitiatingOccupancyFraction -XX:+CMSClassUnloadingEnabled"
  else
      JAVA_MEM_OPTS=" -server -Xms$xmselse -Xmx$xmxelse -XX:PermSize=$permsizeelse -XX:SurvivorRatio=$SurvivorRatio -XX:+UseParallelGC "
  fi
 
- nohup java $JAVA_OPTS $JAVA_MEM_OPTS $JAVA_DEBUG_OPTS $JAVA_JMX_OPTS -classpath $CONF_DIR:$LIB_JARS com.SDockerMain &>/dev/null 2>&1 &
+ nohup java $JAVA_OPTS $JAVA_MEM_OPTS $JAVA_DEBUG_OPTS $JAVA_JMX_OPTS -classpath $CONF_DIR:$LIB_JARS com.SDockerMain -t $MaxThreadPoolSize -p $serverPort -i $MaxInnerThreadPoolSize &>/dev/null 2>&1 &
 
  COUNT=0
  while [ $COUNT -lt 1 ]; do
